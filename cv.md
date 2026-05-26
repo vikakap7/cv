@@ -7,7 +7,7 @@
 
 ## About Me
 
-![Sakura Haruno Avatar](https://static.wikia.nocookie.net/naruto/images/9/9e/Sakura_Part_II.png](https://static.wikia.nocookie.net/naruto/images/6/64/Sakura_Part_1.png/revision/latest?cb=20210224205026&path-prefix=ru)
+![Sakura Haruno Avatar](https://static.wikia.nocookie.net/naruto/images/6/64/Sakura_Part_1.png)
 
 I am a motivated junior developer eager to start my career in IT. My goal is to continuously learn new technologies and work on real-world projects. I am responsible, goal-oriented, and not afraid of challenges.
 
