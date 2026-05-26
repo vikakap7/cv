@@ -47,3 +47,14 @@ This CV is my first project. It demonstrates working with Git branches, Markdown
 **Level:** Intermediate (B1)
 
 I read technical documentation in English and watch IT conferences. I am actively working on improving my spoken English.
+
+
+## Work Experience
+
+I am at the beginning of my career. I complete educational projects, participate in hackathons, and study web development.
+
+I am looking for an internship or junior developer position.
+
+## My CV online
+
+[View my CV on GitHub Pages](https://vikakap7.github.io/cv/cv)
