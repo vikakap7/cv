@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vika Kapitonova - CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
+    <!-- Подключение шрифта Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header с навигацией -->
+    <header class="header">
+        <div class="container">
+            <button class="burger-menu" id="burgerMenu">☰</button>
+            <nav class="nav" id="navMenu">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#profile" class="nav-link">Profile</a></li>
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Основной контент -->
+    <main class="main">
+        <div class="container main-container">
+            <!-- Секция профиля (фото + имя) -->
+            <section class="section section-profile" id="profile">
+                <div class="profile-wrapper">
+                    <img src="assets/img/Sakura_Part_1.webp" alt="Vika Kapitonova" class="profile-photo">
+                    <h1 class="section-title">Vika Kapitonova</h1>
+                    <p class="profile-profession">Junior Front-End Developer</p>
+                </div>
+            </section>
+
+            <!-- Контакты -->
+            <section class="section" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <ul class="section-list">
+                    <li class="section-item">📧 <a href="mailto:vika.kapitonova@gmail.com">vika.kapitonova@gmail.com</a></li>
+                    <li class="section-item">📱 <a href="tel:+1234567890">+123 456 7890</a></li>
+                    <li class="section-item">💻 <a href="https://github.com/vikakap7" target="_blank">GitHub</a></li>
+                    <li class="section-item">📨 <a href="https://t.me/vika_kapitonova" target="_blank">Telegram</a></li>
+                </ul>
+            </section>
+
+            <!-- О себе -->
+            <section class="section" id="summary">
+                <h2 class="section-title">Summary</h2>
+                <p class="section-text">
+                    I am a motivated junior developer eager to start my career in IT. 
+                    My goal is to continuously learn new technologies and work on real-world projects. 
+                    I am responsible, goal-oriented, and not afraid of challenges.
+                </p>
+            </section>
+
+            <!-- Навыки -->
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul class="section-list">
+                    <li class="section-item">JavaScript (ES6+)</li>
+                    <li class="section-item">HTML5 / CSS3</li>
+                    <li class="section-item">React (basic)</li>
+                    <li class="section-item">Git / GitHub</li>
+                    <li class="section-item">Figma / VS Code</li>
+                </ul>
+            </section>
+
+            <!-- Пример кода -->
+            <section class="section" id="code">
+                <h2 class="section-title">Code Example</h2>
+                <pre class="code-block">
+                    <code>
+function isPrime(n) {
+    if (n <= 1) return false;
+    for (let i = 2; i <= Math.sqrt(n); i++) {
+        if (n % i === 0) return false;
+    }
+    return true;
+}
+console.log(isPrime(17)); // true
+                    </code>
+                </pre>
+            </section>
+
+            <!-- Проекты -->
+            <section class="section" id="projects">
+                <h2 class="section-title">Projects</h2>
+                <ul class="section-list">
+                    <li class="section-item">
+                        <strong>CV as a Project</strong> – 
+                        <a href="https://github.com/vikakapitonova/cv" target="_blank">GitHub Repo</a>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- Образование -->
+            <section class="section" id="education">
+                <h2 class="section-title">Education</h2>
+                <ul class="section-list">
+                    <li class="section-item">
+                        <strong>Vitebsk State University (VSU)</strong><br>
+                    </li>
+                    <li class="section-item">
+                        <strong>EPAM Learn</strong> – Git Basics
+                    </li>
+                    <li class="section-item">
+                        <strong>FreeCodeCamp</strong> – Responsive Web Design
+                    </li>
+                </ul>
+            </section>
+
+            <!-- Английский язык -->
+            <section class="section" id="english">
+                <h2 class="section-title">English</h2>
+                <p class="section-text">
+                    <strong>Level:</strong> Intermediate (B1)<br>
+                    I read technical documentation in English and watch IT conferences. 
+                    I am actively working on improving my spoken English.
+                </p>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Vika Kapitonova</p>
+                <a href="https://github.com/vikakap7" target="_blank" class="footer-link">GitHub</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
