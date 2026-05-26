@@ -13,7 +13,7 @@ I am a motivated junior developer eager to start my career in IT. My goal is to 
 
 ## Skills
 
-- Programming Languages: JavaScript, Python, HTML, CSS
+- Programming Languages: JavaScript, Python, HTML, С++
 - Frameworks & Libraries: React, Node.js
 - Version Control: Git, GitHub
 - Tools: VS Code, Figma
@@ -21,6 +21,26 @@ I am a motivated junior developer eager to start my career in IT. My goal is to 
 ## Education
 
 **Vitebsk State University (VSU)**  
+
+## Code Example
+
+#include <iostream>
+
+int factorial(int n) {
+    if (n <= 1) return 1;
+    return n * factorial(n - 1);
+}
+
+int main() {
+    int num = 5;
+    std::cout << "Factorial of " << num << " is " << factorial(num) << std::endl;
+    return 0;
+}
+
+## Projects
+
+### CV as a Project
+This CV is my first project. It demonstrates working with Git branches, Markdown, and GitHub Pages.
 
 ## English
 
